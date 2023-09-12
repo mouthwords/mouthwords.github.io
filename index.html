@@ -7,15 +7,22 @@
     <title>The614Baby Links</title>
     <style>
         body {
-           background-color: #29233b !important;
-           background-image: url("https://i.pinimg.com/originals/65/d6/f2/65d6f27f1ec3968f3c757a60792e540f.jpg");
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          min-height: 100vh;
-          padding-top: 30px;
-           padding-bottom: 30px;
-           overflow: hidden
+  background-color: #20182d !important;
+  background-image: url("https://i.pinimg.com/originals/65/d6/f2/65d6f27f1ec3968f3c757a60792e540f.jpg");
+    height: 100vh;
+    animation: gradient 100s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
         }
 
         .container {
